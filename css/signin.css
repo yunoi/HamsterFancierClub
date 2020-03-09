@@ -1,0 +1,136 @@
+#center_align{
+  position: relative;
+  margin: 0px auto;
+  width: 1100px;
+}
+#h2_align{
+  text-align: center;
+  margin-top: 30px;
+}
+p{
+  margin: 2px 8px 0 8px;
+  font-size: 12px;
+}
+h4{
+  margin: 16px 0;
+}
+table{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th:nth-child(odd){
+  background-color: #f4f4f4;
+}
+th, td{
+  border-collapse: collapse;
+}
+th{
+  width: 100px;
+  border-right: 1px solid lightgray;
+  border-top:1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  font-size: 14px;
+}
+td{
+  width: 1000px;
+  border-left: 1px solid lightgray;
+  border-top:1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+#kakao_msg{
+  color: red;
+  font-size: 12px;
+  position: relative;
+  top: -8px;
+}
+.span_warning {
+  font-size: 10px;
+  color: red;
+}
+
+input{
+  background-color: #f4f4f4;
+  border: 1px solid lightgray;
+  margin: 8px;
+  height: 27px;
+  border-radius: 2px;
+}
+.essential_form{
+  background-image: url(../img/wrest.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  border: 1px solid lightgray;
+}
+#etc_settings{
+  margin-bottom: 20px;
+}
+.etc_span{
+  display: inline-block;
+  vertical-align: 7px;
+  font-size: 14px;
+}
+#btn_submit{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#btn_address{
+  background-color: black;
+  color: white;
+  border-style: hidden;
+  margin-top: 2px;
+  height: 30px;
+  position: absolute;
+  top: 2px;
+}
+#btn_signin{
+  background-color: magenta;
+  color: white;
+  border: 1px solid magenta;
+  margin-top: 2px;
+  height: 40px;
+}
+#btn_cancel{
+  background-color: #f4f4f4;
+  color: gray;
+  border: 1px solid lightgray;
+  margin-top: 2px;
+  height: 40px;
+}
+#address_total{
+  padding: 5px 0px;
+  font-size: 14px;
+}
+#address_total input{
+  margin: 3px 8px;
+}
+#rdo_enter{
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+#rdo_enter span{
+  display: inline-block;
+  vertical-align: 6px;
+  font-size: 14px;
+
+}
+#not_robot_form input{
+  margin-right: 2px;
+}
+.btn_code{
+  margin: 0;
+}
+#outputCode{
+  display: none;
+}
+#canvas_robot{
+  margin-left: 8px;
+  position: relative;
+  top: 13px;
+  border:1px solid gray;
+  background-color: lightgray;
+}
+.address_search{
+  vertical-align: middle;
+  position: relative;
+}

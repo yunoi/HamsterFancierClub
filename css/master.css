@@ -1,0 +1,96 @@
+#main {
+  position: relative;
+  margin: 0px auto;
+  width: 1100px;
+  height: 470px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#main>h1 {
+  margin-top: 100px;
+}
+
+#align_input {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#align_center {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+form{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+#login_form_btn {
+  display: inline-block;
+  margin: 8px auto;
+  text-align: center;
+  height: 110px;
+}
+
+#login_form_btn input{
+  display: inline-block;
+  height: 40px;
+  width: 240px;
+  margin-bottom: 8px;
+}
+
+#btn_login {
+  width: 56px;
+  height: 46px;
+  display: inline-block;
+  float: left;
+}
+
+#btn_login>input {
+  width: 60px;
+  height: 46px;
+  margin: 2px;
+  padding: 0;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+#input_forms {
+  display: inline-block;
+  float: left;
+}
+
+#check_otp {
+  clear: both;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+/* #ckb_div {
+  float: left;
+} */
+
+
+#btn_align, #btn_align>input, #btn_align>button {
+  clear: both;
+  font-size: 12px;
+  color: gray;
+}
+
+#btn_align a {
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}
+
+#btn_align>input:hover, #btn_align>button:hover {
+  color: rgba(30, 94, 217, 0.71);
+  border: 1px solid rgba(30, 94, 217, 0.71);
+}
